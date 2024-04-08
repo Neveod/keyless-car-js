@@ -1,10 +1,10 @@
 function checkID(props) {
   age = prompt("How old are you");
-  if (Number(age) < 18) {
+  if (Number(age) < 16) {
     alert("Sorry, you are too young to drive this car. Powering off");
-  } else if (Number(age) > 18) {
+  } else if (Number(age) > 16) {
     alert("Powering On. Enjoy the ride!");
-  } else if (Number(age) === 18) {
+  } else if (Number(age) === 16) {
     alert("Congratulations on your first year of driving. Enjoy the ride!");
   }
 }
