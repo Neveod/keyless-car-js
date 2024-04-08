@@ -1,3 +1,5 @@
+function changeBackgroundColor() {}
+
 function checkID(props) {
   age = prompt("How old are you");
   if (Number(age) < 16) {
