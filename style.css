@@ -1,3 +1,4 @@
 body {
-  background: #5d9fff;
+  text-decoration: overline;
+  background: linear-gradient(to right, red, blue);
 }

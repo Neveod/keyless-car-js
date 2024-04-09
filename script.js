@@ -1,4 +1,15 @@
-function changeBackgroundColor() {}
+let css = document.querySelector("h2");
+let color1 = document.querySelector(".color1");
+let color2 = document.querySelector(".color2");
+let body = document.getElementById("gradient");
+
+function changeBackgroundColor() {
+  body.style.backgroundColor =
+    "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+}
+
+color1.addEventListener("input", changeBackgroundColor);
+color2.addEventListener("input", changeBackgroundColor);
 
 function checkID(props) {
   age = prompt("How old are you");
